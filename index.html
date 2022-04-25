@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_3354635_khn0po44xx.css">
+  <title>Player</title>
+</head>
+
+<body>
+  <div id="chc-root">
+    <div id="aplayer">
+      <!-- 海报 -->
+      <div class="pic">
+        <img src="https://p2.music.126.net/0KC-cAFqdJHDomIl3dSv4Q==/109951166676094043.jpg">
+      </div>
+      <div class="musicinfo">
+        <span>春娇与志明/街道办GDC</span>
+        <span>- 街道办GOC</span>
+      </div>
+      <!-- 播放插件 -->
+      <div class="play_plug">
+        <div class="play_pause">
+          <i class="iconfont icon-prev"></i>
+          <i class="iconfont icon-play chc-iconfont"></i>
+          <!-- <i class="iconfont icon-pause"></i> -->
+          <i class="iconfont icon-next"></i>
+        </div>
+      </div>
+      <!-- 歌词 -->
+      <div class="icon-lyric">
+        <i class="iconfont icon-bottom lyric_btn"></i>
+      </div>
+      <!-- 音乐进度条 -->
+      <progress max="0" value="0"></progress>
+    </div>
+    <!-- 歌词蒙版 -->
+    <div class="lyrc-pic lyricRef" >
+      <div class="lyric-poster">
+        <img src="https://p2.music.126.net/0KC-cAFqdJHDomIl3dSv4Q==/109951166676094043.jpg">
+      </div>
+      <div class="lyric">
+        <div class="content">
+        </div>
+      </div>
+    </div>
+
+    <audio src="https://chcmusic.cloud/images/%E6%98%A5%E5%A8%87%E4%B8%8E%E5%BF%97%E6%98%8E.mp3" style="display: none;"></audio>
+  </div>
+
+  <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
